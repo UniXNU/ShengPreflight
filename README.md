@@ -1,7 +1,7 @@
 # ShengPreflight
 
-UEFI preflight checks for sheng. Checks firmware inputs before the payload is built.
+sheng firmware preflight.
 
-Current state: run by the sheng firmware and payload steps.
-
-Included by UniXNU-sheng at `drivers/ShengPreflight`.
+The device repository selects this component with its board inputs.
+Build requirements and scope are documented in the [UniXNU site](https://unixnu.com/drivers/sheng-preflight)
+and [component catalog](https://unixnu.com/reference/components).
